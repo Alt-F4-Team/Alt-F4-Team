@@ -11,7 +11,11 @@ window.addEventListener('scroll', () => {
     }
 })
 
-let projectsList = []
+let projectsList = [{
+	name: 'Star Logger',
+	screenshot: 'star-logger.png',
+	url: 'https://star-logger.alt-f4-team.xyz'
+}]
 
 for (let i = 0; i < projectsList.length; i++) {
     let projects = document.createElement("div")
